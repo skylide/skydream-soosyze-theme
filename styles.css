@@ -73,7 +73,6 @@ ol {
     width: 65%;
     font-size: 14px;
     text-transform: uppercase;
-    overflow: hidden;
 }
 
 .navbar-nav li {
@@ -174,11 +173,11 @@ article h3 a  {
 article .fa-clock, article .fa-calendar-day {
     color: #FFCF11;
 }
-article .btn, .form-group .btn {
+article .btn, .form-group .btn, .btn-sumbit {
     background-color: #FFCF11;
     color: white;
 }
-article .btn:hover, article .btn:focus, .form-group .btn:hover, .form-group .btn:focus {
+article .btn:hover, article .btn:focus, .form-group .btn:hover, .form-group .btn:focus, .btn-sumbit:hover, .btn-sumbit:focus {
     background-color: rgb(255, 223, 96);
     color: white;
 }
@@ -225,8 +224,11 @@ footer {
     width: 50%;
 }
 
-.news a {
+.news a, .mdp-forget {
     color: #FFCF11;
+}
+.mdp-forget:hover, .mdp-forget:focus {
+    color: #FFCF11
 }
 
 .news a:hover {
