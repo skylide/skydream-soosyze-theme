@@ -3,12 +3,7 @@
     <div class="header-2">
         <div class="logo">
             <a href="<?php echo $base_path; ?>"><?php echo $title; ?></a>
-            <?php if( $logo ): ?>
-
-            <a href="<?php echo $base_path; ?>"><img src="<?php echo $logo; ?>" alt="Logo site"></a>
-            <?php else: ?>
-
-            <?php endif; ?>
+            
         </div>
     </div>
     <div class="header-3">
@@ -21,6 +16,14 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <?php echo $section[ 'main_menu' ]; ?>
+                <form class="form-inline">	
+                        <div class="seo_social">	
+                            <a target="_blank" href="#" class="i-google"><i class="fab fa-google-plus-g"></i></a>	
+                            <a target="_blank" href="#" class="i-facebook"><i class="fab fa-facebook-f"></i></a>	
+                            <a target="_blank" href="#" class="i-twitter"><i class="fab fa-twitter"></i></a>	
+                            <a target="_blank" href="#" class="i-youtube"><i class="fab fa-youtube"></i></a>	
+                        </div>	
+                    </form>
             </div>
         </nav>
     </div>
