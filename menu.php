@@ -6,9 +6,10 @@
     <?php endif; ?>
     <?php if (!empty($link[ 'submenu' ])): ?>
 
-    <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
+    <a href="#" class="nav-link hvr-icon-down hvr-underline-reveal" role="button" data-toggle="dropdown" aria-haspopup="true"
         aria-expanded="false">
         <?php echo !empty($link['icon']) ? "<i class='{$link['icon']}' aria-hidden='true'></i> {$link[ 'title_link' ]}" : $link[ 'title_link' ]; ?>
+        <i class="fas fa-chevron-down hvr-icon"></i>
 
     </a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -17,7 +18,7 @@
     </div>
     <?php else: ?>
 
-    <a href="<?php echo $link[ 'link' ]; ?>" class="nav-link<?php echo $level !== 1 ? ' dropdown-item' : '​'; ?> "
+    <a href="<?php echo $link[ 'link' ]; ?>" class="hvr-underline-reveal nav-link<?php echo $level !== 1 ? ' dropdown-item' : '​'; ?> "
         target="<?php echo $link[ 'target_link' ]; ?>" <?php if ($link[ 'target_link' ] === '_blank'): ?>
         rel="noopener noreferrer" <?php endif; ?>>
         <?php echo !empty($link['icon']) ? "<i class='{$link['icon']}' aria-hidden='true'></i> {$link[ 'title_link' ]}" : $link[ 'title_link' ]; ?>

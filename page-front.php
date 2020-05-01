@@ -2,7 +2,7 @@
     <div class="header-1"></div>
     <div class="header-2">
         <div class="logo">
-            <a href="<?php echo $base_path; ?>"><?php echo $title; ?></a>
+            <a class="hvr-bob" href="<?php echo $base_path; ?>"><?php echo $title; ?></a>
         </div>
     </div>
     <div class="header-3">
@@ -16,10 +16,10 @@
                 <?php echo $section[ 'main_menu' ]; ?>
                 <form class="form-inline">	
                         <div class="seo_social">	
-                            <a target="_blank" href="#" class="i-google"><i class="fab fa-google-plus-g"></i></a>	
-                            <a target="_blank" href="#" class="i-facebook"><i class="fab fa-facebook-f"></i></a>	
-                            <a target="_blank" href="#" class="i-twitter"><i class="fab fa-twitter"></i></a>	
-                            <a target="_blank" href="#" class="i-youtube"><i class="fab fa-youtube"></i></a>	
+                            <a target="_blank" href="#" class="i-google"><i class="fab fa-google-plus-g hvr-pulse"></i></a>	
+                            <a target="_blank" href="#" class="i-facebook"><i class="fab fa-facebook-f hvr-pulse"></i></a>	
+                            <a target="_blank" href="#" class="i-twitter"><i class="fab fa-twitter hvr-pulse"></i></a>	
+                            <a target="_blank" href="#" class="i-youtube"><i class="fab fa-youtube hvr-pulse"></i></a>	
                         </div>	
                     </form>
             </div>
@@ -86,10 +86,10 @@
                     <?php echo $section[ 'footer' ]; ?>
                     <?php endif; ?>
 
-                    Thème <a target="_blank" href="https://www.arnaud-dupont.tk/">Skydream</a> fait avec
+                    Thème <a target="_blank" href="https://github.com/skylide/skydream-soosyze-theme">Skydream</a> fait avec
                     <i class="fa fa-heart" style="color: red;margin:0 2px;"></i> par
-                    <a href="https://www.mycraftsite.fr.nf">Arnaud Dupont</a><br>
-                    Intégré par <a href="https://mathieu-noel.fr/">Mathieu NOËL</a>
+                    <a target="_blank" href="https://www.arnaud-dupont.tech/">Arnaud Dupont</a><br>
+                    Intégré par <a target="_blank" href="https://mathieu-noel.fr/">Mathieu NOËL</a>
                 </div>
                 <div class="col-md-6">
                     <div class="float">

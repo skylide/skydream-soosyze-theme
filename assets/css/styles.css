@@ -9,6 +9,14 @@ ol {
     list-style-position: inside
 }
 
+a {
+    color: #FFCF11;
+}
+
+a:hover {
+    color: #faeaa8;
+    text-decoration: inherit;
+}
 .header-1 {
     background-color: #384A60;
     padding-top: 20px;
