@@ -230,11 +230,11 @@ footer {
     padding-top: 10px;
 }
 
-footer .h5-widget h1,
-footer .h5-widget h2,
-footer .h5-widget h3,
-footer .h5-widget h4,
-footer .h5-widget h5 {
+footer .major h1,
+footer .major h2,
+footer .major h3,
+footer .major h4,
+footer .major h5 {
     position: relative;
     display: block;
     padding-bottom: 15px;
@@ -242,11 +242,11 @@ footer .h5-widget h5 {
     border-bottom: 2px solid rgba(255, 255, 255, 0.05);
 }
 
-footer .h5-widget h1::after,
-footer .h5-widget h2::after,
-footer .h5-widget h3::after,
-footer .h5-widget h4::after,
-footer .h5-widget h5::after {
+footer .major h1::after,
+footer .major h2::after,
+footer .major h3::after,
+footer .major h4::after,
+footer .major h5::after {
     border-bottom: 2px solid #FFCF11;
     width: 50%;
     content: '';
@@ -347,4 +347,8 @@ footer .h5-widget h5::after {
 .form-group .btn {
     margin-top: 10px;
     background-color: #FFCF11 !important;
+}
+
+.block-actions {
+    z-index: 1;
 }
