@@ -218,13 +218,14 @@ footer {
 }
 
 .footer-1 a {
-    color: white;
+    color: #FFCF11;
 }
 
 .footer-1 a:hover {
-    color: #FFCF11;
+    color: #faeaa8;
     text-decoration: inherit;
 }
+
 
 .footer-1 .col-md-4 {
     padding-top: 10px;
