@@ -8,7 +8,9 @@ ol {
     margin-left: 0;
     list-style-position: inside
 }
-
+.hvr-underline-reveal:before {
+    background: #FFCF11;;
+}
 a {
     color: #FFCF11;
 }
