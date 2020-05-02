@@ -1,5 +1,8 @@
+
 body {
     font-family: 'PT Sans Caption', sans-serif;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 ul,
@@ -21,7 +24,10 @@ a:hover {
 }
 .header-1 {
     background-color: #384A60;
-    padding-top: 20px;
+    min-height: 25px;
+}
+.header-1-a {
+    padding-left: 10px;
 }
 
 .header-2 {

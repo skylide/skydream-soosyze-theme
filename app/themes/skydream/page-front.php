@@ -1,8 +1,14 @@
-<header>
-    <div class="header-1"></div>
+<header class="wow bounceInDown" data-wow-delay="0s">
+    <div class="header-1">
+        <div class="container">
+            <div class="row">
+                <?php echo $section[ 'second_menu' ]; ?>
+            </div>
+        </div>
+    </div>
     <div class="header-2">
-        <div class="logo">
-            <a class="hvr-bob" href="<?php echo $base_path; ?>"><?php echo $title; ?></a>
+        <div class="logo animated infinite pulse delay-2s">
+            <a href="<?php echo $base_path; ?>"><?php echo $title; ?></a>
         </div>
     </div>
     <div class="header-3">
@@ -27,7 +33,7 @@
     </div>
 </header>
 
-<section class="container">
+<section class="container wow bounceInUp" data-wow-delay="1s">
     <div class="row" id="body">
         <div id="content" class="page col-md-12">
             <h2 class="title_main"><?php echo $title_main; ?></h2>
@@ -51,7 +57,7 @@
     </div>
 </section>
 
-<footer>
+<footer class="wow bounceInUp" data-wow-delay="0s">
     <div class="footer-1">
         <div class="container">
             <div class="row">
@@ -80,7 +86,7 @@
     <div class="footer-2">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <?php if( !empty($section[ 'footer' ]) ): ?>
 
                     <?php echo $section[ 'footer' ]; ?>
@@ -90,12 +96,6 @@
                     <i class="fa fa-heart" style="color: red;margin:0 2px;"></i> par
                     <a target="_blank" href="https://www.arnaud-dupont.tech/">Arnaud Dupont</a><br>
                     Intégré par <a target="_blank" href="https://mathieu-noel.fr/">Mathieu NOËL</a>
-                </div>
-                <div class="col-md-6">
-                    <div class="float">
-
-                        <?php echo $section[ 'second_menu' ]; ?>
-                    </div>
                 </div>
             </div>
         </div>
