@@ -38,7 +38,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.8.3/Sortable.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
-        new WOW().init();
+        wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       false,       // default
+                      live:         true      // default
+                    }
+                    )
+                    wow.init();
     </script>
     <script src="<?php echo $base_theme; ?>assets/js/admin.js"></script>
     <?php echo $scripts; ?>

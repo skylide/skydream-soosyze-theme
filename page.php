@@ -1,4 +1,4 @@
-<header class="wow bounceInDown" data-wow-delay="0s">
+<header class="wow">
     <div class="header-1">
         <div class="container">
             <div class="row">
@@ -34,7 +34,7 @@
     </div>
 </header>
 
-<section class="container wow bounceInUp" data-wow-delay="1s">
+<section class="container">
     <div class="row" id="body">
         <div id="content" class="page col-md-12">
             <h2 class="title_main"><?php echo $title_main; ?></h2>
@@ -58,7 +58,7 @@
     </div>
 </section>
 
-<footer class="wow bounceInUp" data-wow-delay="0s">
+<footer>
     <div class="footer-1">
         <div class="container">
             <div class="row">
