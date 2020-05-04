@@ -6,7 +6,7 @@
 Déposé le thème Skydream dans app/themes de votre cms Soosyze.
 
 ## Optionnel:
-> Pour ajouté votre logo, vous pouvez ajouter cette ligne de code après la ligne 11 dans les fichiers  pages.php et page-front.php.
+> Pour ajouter votre logo, vous pouvez ajouter cette ligne de code après la ligne 11 dans les fichiers  pages.php et page-front.php.
 
     <center>
     	<?php if( $logo ): ?>
