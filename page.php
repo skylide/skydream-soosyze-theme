@@ -1,3 +1,4 @@
+
 <header class="wow">
     <div class="header-1">
         <div class="container">
@@ -39,18 +40,18 @@
         <div id="content" class="page col-md-12">
             <h2 class="title_main"><?php echo $title_main; ?></h2>
 
-            <?php if( !empty($section[ 'messages' ]) ): ?>
+            <?php if (!empty($section[ 'messages' ])): ?>
 
             <?php echo $section[ 'messages' ]; ?>
             <?php endif; ?>
 
-            <?php if( !empty($section[ 'content_header' ]) ): ?>
+            <?php if (!empty($section[ 'content_header' ])): ?>
 
             <?php echo $section[ 'content_header' ]; ?>
             <?php endif; ?>
 
             <?php echo $section[ 'content' ]; ?>
-            <?php if( !empty($section[ 'content_footer' ]) ): ?>
+            <?php if (!empty($section[ 'content_footer' ])): ?>
 
             <?php echo $section[ 'content_footer' ]; ?>
             <?php endif; ?>
@@ -63,19 +64,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <?php if( !empty($section[ 'footer_first' ]) ): ?>
+                    <?php if (!empty($section[ 'footer_first' ])): ?>
 
                     <?php echo $section[ 'footer_first' ]; ?>
                     <?php endif; ?>
                 </div>
                 <div class="col-md-4">
-                    <?php if( !empty($section[ 'footer_second' ]) ): ?>
+                    <?php if (!empty($section[ 'footer_second' ])): ?>
 
                     <?php echo $section[ 'footer_second' ]; ?>
                     <?php endif; ?>
                 </div>
                 <div class="col-md-4">
-                    <?php if( !empty($section[ 'footer_three' ]) ): ?>
+                    <?php if (!empty($section[ 'footer_three' ])): ?>
 
                     <?php echo $section[ 'footer_three' ]; ?>
                     <?php endif; ?>
@@ -88,7 +89,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <?php if( !empty($section[ 'footer' ]) ): ?>
+                    <?php if (!empty($section[ 'footer' ])): ?>
 
                     <?php echo $section[ 'footer' ]; ?>
                     <?php endif; ?>

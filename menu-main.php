@@ -1,6 +1,6 @@
 <?php echo $level === 1 ? '<ul class="navbar-nav  mr-auto">' : ''; ?>
 <?php foreach ($menu as $link): ?>
-<?php if($level === 1): ?>
+<?php if ($level === 1): ?>
 
 <li class="nav-item<?php echo empty($link[ 'submenu' ]) ? '' : '​ dropdown'; ?> <?php echo $link[ 'link_active' ]; ?>">
     <?php endif; ?>
@@ -25,7 +25,7 @@
 
     </a>
     <?php endif; ?>
-    <?php if($level === 1): ?>
+    <?php if ($level === 1): ?>
 
 </li>
 <?php endif; ?>

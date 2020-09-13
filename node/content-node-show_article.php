@@ -1,3 +1,6 @@
+
+<?php echo $node_submenu; ?>
+
 <div class="article_img">
     <?php echo $fields[ 'image' ][ 'field_display' ]; ?>
 </div>

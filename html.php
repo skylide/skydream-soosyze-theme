@@ -6,7 +6,7 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?php echo $title; ?></title>
-    <?php if( $favicon ): ?>
+    <?php if ($favicon): ?>
     <link rel="shortcut icon" type="image/png" href="<?php echo $favicon; ?>" />
     <?php endif; ?>
 
@@ -27,7 +27,7 @@
 
 <body>
     <?php echo $section[ 'page' ]; ?>
-    <?php if( isset($section[ 'page_bottom' ]) ): ?>
+    <?php if (isset($section[ 'page_bottom' ])): ?>
     <?php echo $section[ 'page_bottom' ]; ?>
     <?php endif; ?>
 
