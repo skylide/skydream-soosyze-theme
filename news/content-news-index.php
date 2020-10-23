@@ -14,7 +14,7 @@
                 <?php echo $new[ 'field' ][ 'summary' ][ 'field_display' ]; ?>
                 
                 <span class="span-atc-1">
-                    <i class="fas fa-calendar-alt"></i> <?php echo strftime('%d.%B.%Y', $new[ 'date_created' ]); ?>
+                    <i class="fas fa-calendar-"></i> <?php echo strftime('%d.%B.%Y', $new[ 'date_created' ]); ?>
                 </span>
                 
                 <span class="span-atc-2">
