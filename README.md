@@ -26,7 +26,7 @@ Thème léger pour [Soosyze CMS](https://soosyze.com) avec un menu horizontal su
 
   
 
-Thème [Skydream](https://www.arnaud-dupont.tk) fait avec :heart: par [Arnaud Dupont](https://www.arnaud-dupont.tech)
+Thème [Skydream](https://www.arnaud-dupont.tech) fait avec :heart: par [Arnaud Dupont](https://www.arnaud-dupont.tech)
 
   
 

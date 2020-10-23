@@ -1,11 +1,11 @@
 
 <?php echo $node_submenu; ?>
 
-<div class="article_img">
+<div class="article_img text-center">
     <?php echo $fields[ 'image' ][ 'field_display' ]; ?>
 </div>
 <div class="span-atc-1">
-    <i class="fas fa-calendar-day"></i>
+    <i class="fas fa-calendar-alt"></i>
     <?php echo strftime('%d.%B.%Y', $node[ 'date_created' ]); ?>
     -
     <i class="fa fa-clock"></i>

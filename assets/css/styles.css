@@ -194,7 +194,9 @@ article h3 a {
 }
 
 article .fa-clock,
-article .fa-calendar-day {
+article .fa-calendar-alt,
+.span-atc-1 .fa-clock,
+.span-atc-1 .fa-calendar-alt {
     color: #FFCF11;
 }
 

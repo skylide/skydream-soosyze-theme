@@ -2,7 +2,7 @@
     "name": "soosyze-core/Skydream",
     "type": "soosyze-theme",
     "description": "Thème léger avec un menu horizontal sur 2 niveaux avec des nuances de bleu grisées et jaune.",
-    "version": "1.0",
+    "version": "1.3",
     "extra": {
         "soosyze-theme": {
             "sections": [
